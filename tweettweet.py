@@ -12,7 +12,7 @@ auth.set_access_token(accessToken, accessTokenSecret)
 
 api = tweepy.API(auth)
 
-searchItem = input("Please enter keyword/ hashtag to search about: ")
+searchItem = input("Please enter keyword/ hashtag to search about: 12234")
 noOfSearchItems = int(input("Please enter how many tweets you want: "))
 
 print(noOfSearchItems)
